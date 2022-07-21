@@ -7,11 +7,9 @@ public class principal extends Equacao {
     public static void main(String[] args) {
         
         Delta delta = new Delta();
-        EqXn xnXp = new EqXn();
+        EqXn xwXt = new EqXn();
         Scanner entrada = new Scanner(System.in);
 
-
-        
         System.out.println("Qual o valor de a?");
         delta.setA(entrada.nextDouble());
        
@@ -26,8 +24,8 @@ public class principal extends Equacao {
         if (delta.getDelta() < 0) {
             System.out.println("A equação é inexistente");
         } else {
-            System.out.println("xn :" + xnXp.calculaXn(delta));
-            System.out.println("xp :" + xnXp.calculaXp(delta));
+            System.out.println("xw :" + xwXt.calculaXw(delta));
+            System.out.println("xt :" + xwXt.calculaXt(delta));
         }
 
     }

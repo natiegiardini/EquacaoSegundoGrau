@@ -1,6 +1,6 @@
 package EquacaoSegundoGrau;
 
-public class Euqacao{
+public class Equacao{
 
 private double a;
     private double b;
