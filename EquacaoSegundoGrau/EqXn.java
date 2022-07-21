@@ -7,27 +7,27 @@ public class EqXn extends Equacao {
     private double xt;
 
     //#regioninicio do metodo de acesso
-    public double calculaXn(Delta delta) {
+    public double calculaXw(Delta delta) {
         xw = (-delta.getB() - Math.sqrt(delta.getDelta())) / 2 * delta.getA();
         return xw;
     }
     
-    public double calculaXp(Delta delta) {
+    public double calculaXt(Delta delta) {
         xw = (-delta.getB() + Math.sqrt(delta.getDelta())) / 2 * delta.getA();
         return xt;
     }
-    public double getXn() {
+    public double getXw() {
         return xw;
     }
 
-    public void setXn(double xw) {
+    public void setXw(double xw) {
         this.xw = xw;
     }
 
-    public double getXp() {
+    public double getXt() {
         return xt;
 
-    public void setXp(double xt) {
+    public void setXt(double xt) {
         this.xt = xt;
     }
     //#endregion
